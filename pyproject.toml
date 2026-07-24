@@ -4,7 +4,7 @@ requires = [
   "cmeel-boost[build] ~= 1.90.0",
   "cmeel-tinyxml2[build]",
   "cmeel[build]",
-  "jrl-cmakemodules"
+  "jrl-cmakemodules[build]"
 ]
 
 [project]
@@ -15,13 +15,10 @@ dependencies = [
 description = "Debugging tools for the HPP project."
 license = "BSD-2-Clause"
 name = "hpp-util"
-version = "9.0.0"
+version = "9.0.2"
 
 [tool.cmeel]
 has-sitelib = false
-
-[tool.ruff]
-extend-exclude = ["cmake"]
 
 [tool.ruff.lint]
 extend-select = ["I", "NPY", "RUF", "UP", "W"]
