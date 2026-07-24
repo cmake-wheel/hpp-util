@@ -1,5 +1,5 @@
 [build-system]
-build-backend = "cmeel.build"
+build-backend = "cmeel"
 requires = [
   "cmeel-boost[build] ~= 1.90.0",
   "cmeel-tinyxml2[build]",
